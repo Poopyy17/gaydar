@@ -131,7 +131,7 @@ const GaydarFlow = () => {
   }
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full min-h-screen">
       <AnimatePresence mode="wait">
         {stage === 'home' && (
           <motion.div
@@ -140,7 +140,7 @@ const GaydarFlow = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="absolute inset-0"
+            className="w-full min-h-screen"
           >
             <Homepage 
               onUploadPhoto={handleUploadPhoto}
@@ -156,7 +156,7 @@ const GaydarFlow = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="absolute inset-0"
+            className="w-full min-h-screen"
           >
             <LoadingAnalysis />
           </motion.div>
@@ -169,9 +169,9 @@ const GaydarFlow = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="absolute inset-0"
+            className="w-full min-h-screen"
           >
-            <div className="w-full h-screen flex items-center justify-center bg-linear-to-br from-background via-background to-muted/20 p-6">
+            <div className="w-full min-h-screen flex items-center justify-center bg-linear-to-br from-background via-background to-muted/20 p-6 py-12">
               <div className="max-w-4xl w-full flex flex-col items-center justify-center space-y-6 text-center">
                 <div className="w-96 h-96">
                   <Lottie 
@@ -194,7 +194,7 @@ const GaydarFlow = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="absolute inset-0"
+            className="w-full min-h-screen"
           >
             <ResultPage 
               result={analysisResult}

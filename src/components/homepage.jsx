@@ -34,7 +34,7 @@ const Homepage = ({ onUploadPhoto, onUseCamera }) => {
   }
 
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-linear-to-br from-background via-background to-muted/20 p-6">
+    <div className="w-full min-h-screen flex items-center justify-center bg-linear-to-br from-background via-background to-muted/20 p-6 py-12">
       <div className="max-w-4xl w-full">
         <div className="flex flex-col items-center justify-center space-y-8 text-center">
           <div className="space-y-4">
@@ -45,7 +45,8 @@ const Homepage = ({ onUploadPhoto, onUseCamera }) => {
               Welcome to Gaydar
             </h1>
             <p className="text-xl text-muted-foreground max-w-md mx-auto">
-              An app that determines if you are gay or not
+              An app that judges if you are gay or not<br />
+              <span>(hindi judgmental yung developer)</span>
             </p>
           </div>
           

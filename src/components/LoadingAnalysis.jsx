@@ -21,7 +21,7 @@ const LoadingAnalysis = () => {
   }, [])
 
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-linear-to-br from-background via-background to-muted/20 p-6">
+    <div className="w-full min-h-screen flex items-center justify-center bg-linear-to-br from-background via-background to-muted/20 p-6 py-12">
       <div className="max-w-4xl w-full flex flex-col items-center justify-center space-y-8 text-center">
         {/* Lottie Animation */}
         <div className="w-80 h-80">

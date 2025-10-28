@@ -116,8 +116,18 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
   body {
     @apply bg-background text-foreground;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+  #root {
+    min-height: 100vh;
+    overflow-x: hidden;
   }
 }

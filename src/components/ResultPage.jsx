@@ -88,7 +88,7 @@ confetti({
 
           {/* Title */}
           <div className="space-y-4">
-            <h1 className="text-5xl font-bold bg-linear-to-r from-foreground to-foreground/70 bg-clip-text text-transparent pb-2">
+            <h1 className="text-5xl font-bold rainbow-text pb-2">
               Analysis Complete!
             </h1>
             <p className="text-xl text-muted-foreground max-w-md mx-auto">
