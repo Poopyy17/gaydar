@@ -174,7 +174,7 @@ confetti({
                   return (
                     <div key={index} className="flex items-center gap-3 px-4 py-3 bg-muted/50 rounded-xl">
                       <Icon className={`w-5 h-5 ${insight.color}`} />
-                      <span className="text-sm">{insight.text}</span>
+                      <span className="text-sm text-left">{insight.text}</span>
                     </div>
                   )
                 })}
